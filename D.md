@@ -1,5 +1,5 @@
 # 2. 16.
-# 1918
+## 1918
 - 2.5. demostrace Praha - hněvy
 - 25.5. Turčiánský sv. Martin - ustaveno SNR
 - národní rada československá
@@ -57,6 +57,7 @@
 - Švédsko (neutrální), Švýcarsko (úspory v jejich bankách)
 - Nizozemí, Kanada (kolonie), Austrálie
 
+# 22. 2.
 ## Pařížská mírová konference
 - 27 států dohody
 - pár chybí (Rusko moc problémů)
