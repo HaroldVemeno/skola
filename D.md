@@ -1,4 +1,4 @@
-# 2. 16.
+# 16. 2.
 ## 1918
 - 2.5. demostrace Praha - hněvy
 - 25.5. Turčiánský sv. Martin - ustaveno SNR
@@ -61,7 +61,7 @@
 ## Pařížská mírová konference
 - 27 států dohody
 - pár chybí (Rusko moc problémů)
-- Francie zatup. Georges lemeneau
+- Francie zatup. Georges Clemenceau
 - VB David Lloyd George
 - USA - Woodrow Wilson
 - Itálie - Vittorio Emmanuele Orlando
@@ -100,7 +100,7 @@
     - USA - izolacionizmus (od bojů)
 ## Smlouvy ČSR
     - Velká dohoda: Francie, Velká Británie, ČSR (ve Versailles)
-    - *Malá dohoda*: ČSR, Jugoslávie, Rumunsko, Francie (1920-1921)
+    - *Malá dohoda*: ČSR, Jugoslávie, Rumunsko, Francie (1921-1921)
         - ne Polsko, špatné vztahy
 
 ## Washingtonská konference
@@ -128,12 +128,92 @@
         - role odporu bělogv.
     - 3. duben 1920
         - gen. Wardl, Poláci
-        - při ní zpoury v Kronštadtu
+        - při ní vzpoury v Kronštadtu
         - taky neúspěch
-
-
-
-
+# 23. 2.
+## Výsledek občanské války
+    - RA ovládla Krym, Kavkaz; obnova kontroly téměř celého ruského území
+    - (kromě pobaltí, Finska)
+    - v obč. válce bojovalo 550 000 lidí
+    - masakry zajatců, trestné výpravy
+    - trpéli venkované, vyvraždění celých vesnic (z podezření)
+    - 1918-1920 asi 9 000 000 obětí
+    - Čeka (později KGB)
+    - gulagy (pracovní tábor, pro státu nebezpečné, kruté, vyvražďování)
+    - kontrola informací vycházejících z Ruska (průvodci žurnalistů)
+    - hospodářství v troskách, směna naturálií
+    - válečný komunismus
+    - dospělí chodili do škol, 97% před bolševickou revolucí negramotní
+    - 1921 Nová Ekon. Politika (NEP)
+        - o směně mezi venkovem a městem
+        - řemeslníci, průmysl
+    - GOELRO
+        - státní elektrifikace Ruska
+        - jinde elektrifikace i na venkově (85%)
+        - v Rusku jen v průmyslových oblastech
+        - stěhování za prací, byty (ale špatné silnice)
+## Vznik SSR
+    - bolševici všude v převaze, všude zvítězili
+    -  (sovět = rada)
+    - společné zastupování na mezinárodních věcech
+    - mezinárodní izolace
+        - nikdo s nimi nechtěl mít nic společné
+        - nechtěli šířit bolševické myšlenky
+        - až postupně uznáván
+    - v Moskvě vznkl Svaz sovětských socialistických republik
+        - prosinec 1922
+    - problém
+        - carské dluhy
+        - náhrady za vyvlastněné podniky
+## Německo
+    - 29.10. 1918 povstání v Kielu, pak celé Německo
+    - 4.11. abdikoval Vilém II.
+    - vyhlášena republika
+        - nejistota nad vládou
+    - leden 1919 vyhlášena socialistická rep. v Berlíně
+        - potlačeno
+    - pak ještě pokus o převrat v Bavorsku (březen)
+## Výmarská republika
+    - 1919 - 1933
+    - únor 1919 – národní shromáždění ve Výmaru
+    - 31.7. 1919 ústava
+    - Říšský sněm hlavní, spolkový kancléř
+    - Výmarská republika – demokratický stát
+    - bráni jako vyníci, kolektivní vina
+    - spolkový stát
+    - reparace, Fr. chtěli peníze, chtěli Německo zničit, silná záčť
+## Ruhrská krize 1923 - 1925
+    - poválečná krize
+    - zhoršování hospodářské úrovně
+    - reparace
+    - 11.1. 1923 fr. a belg. armáda  Porúří
+    - kancléř Gustav Stresemann
+        - hodně radikálních hlasatelů
+        - zabránil komunistickému převratu (Sasko, Durynsko)
+    - listopad 1923 nacistický puč v Mnichově
+    - hyperinflace dollar = 4.2 bil. marek
+    - konec 1923 USA + VB jednání o vyřešení krize
+        - VB se bála moc velkému ekon. rozsahu Fr.
+    - do srpna 1925 – Fr. a Belg. - odchod
+## Janovská konference 1922
+    - Itálie
+    - carské dluhy
+    - výše německých reparací
+    - navázání kontaktů N + budoucí SSSR
+        - oba postižené válkou
+    - duben 1922 Rapallská smlouva
+        - v Rapallo dohody mezi N, budoucí SSSR
+        - odpuštění dluhů a reparací
+    - důsledky: vymanění z izolace, hospodářský a vojenský kontakt
+## Dawesův plán 1924
+    - snaha stabilizovat německé hospodářství, pomoci německu
+    - půjčka (USA 70% z) 800 mil. zlatých marek Německu => placení reparací
+        - závislost Německa na USA, později při hosp. krizi problém
+## Youngův plán 1929
+    - konečná úprava reparací (Young vypočítal, 113.9 zl. marek, 37 let)
+    - leden 1930 konference v Haagu
+        - Youngův plán přijat
+    - hosp. sblížení Německa s USA
 
 
 
