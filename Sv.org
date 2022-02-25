@@ -1,13 +1,19 @@
-# 2. 17
-## Nezaměstnanost
-## Úřady práce
-    - podpora
-    - max 65% býv. platu (2 měs), pak 50% (2 měs), 45%
-    - podle věku:5 8 11
-### Státní politika
-    - aktviní politika (rekvalifikace, invest. pobídky)
-    - pasivní (soc. dávky)
-### Obchodní Bilance
-    - export import
-### Státní rozpočet
-
+* 2. 17
+** Nezaměstnanost
+** Úřady práce
+- podpora
+- max 65% býv. platu (2 měs), pak 50% (2 měs), 45%
+- podle věku:5 8 11
+** Státní politika
+- aktivní politika (rekvalifikace, invest. pobídky)
+- pasivní (soc. dávky)
+** Obchodní Bilance
+- export import
+** Státní rozpočet
+* 2. 24
+** Daně
+** Výdaje SR
+- kvazimandatorní - ne zákonem, ale smlouvy (mzdy, hasiči, armáda)
+** Sociální zabezpečení
+- sociální pojištění
+- nemocenské pojištění
