@@ -2,6 +2,17 @@
 
 using namespace std;
 
+/* Úkoly:
+ * 1. clear
+ * 2. cons
+ * 3. operator<<
+ * 4. uncons
+ * 5. push
+ * 6. pop
+ * 7. insert_s
+ * 8. remove
+ *  */
+
 struct Prvek {
     int val;
     Prvek* next;
@@ -94,9 +105,7 @@ void insert_s(Prvek*& p, int c) {
     while(pc->next != nullptr && pc->next->val < c) {
         pc = pc->next;
     }
-
     pc->next = new Prvek{c, pc->next};
-
 }
 
 void remove(Prvek*& p, int i) {
@@ -168,5 +177,4 @@ int main() {
     cout << *p;
     remove(p, 11);
     cout << *p;
-
 }

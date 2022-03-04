@@ -17,3 +17,26 @@
 ** Sociální zabezpečení
 - sociální pojištění
 - nemocenské pojištění
+* 3. 3.
+  - Důchodové pojištění
+** Státní sociální podpora
+- do 2.7násobku životního minima
+  - příspěvek na dítě
+  - porodné
+- když >30% peněz jde na bydlení
+  - příspěvek na bydlení
+- nezávislé na příjmu
+  - rodičovský příspěvek
+  - dávky pěstounské péče (úrad práce)
+  - pohřebné
+** Státní sociální pomoc
+- dávky v hmotné nouzi
+  - živobytí, bydlení
+  - dávky mimořádné okamžité pomoc (tornádo)
+- dávky sociální péče
+  - příspěvek pro zdravotně postižené
+  - příspěvek na péči (sami starají o staré)
+** Zdravotní pojištění
+- povinné, ale svobodná volba
+- v ČR 7 zdravotních pojišťoven
+- 60% obyvatel VZP
