@@ -55,7 +55,7 @@
 ** Staré směry
 - pořád
 - civilismus
-- vitilismus
+- vitalismus - oslava života
 - naturismus
 - unanimismus
   - provázaní lidé mají kolektivní duši
@@ -66,6 +66,7 @@
 - marxismus
   - společenské vrstvy, kritika kapitalistické společnosti
 - secese
+  - Alfonz Mucha
   - kultivace prostředí, ve kterém žijeme
 - avantgardní směry
   - akménismus
@@ -108,7 +109,7 @@
 - ze vzívání deprese, sebevražda
 - I přes lidovost byl v srdíčku romantik a v jádru byly básně vážné
 - I když byl brán jako reprezentant SSSR tak ke konci života začal
-   čím dál víc cítit svazovačnost režimu
+  čím dál víc cítit svazovačnost režimu
 - hromada děl, hodně poem
   - Políček veřejnému vkusu - manifest, podílel se na něm
   - (Vladimir Majakovskij - metafory, hyperboly)
@@ -196,7 +197,13 @@ dílo:
   - ideály x tvrdá realita
   - jediná hodntota,která zůstane, je přátelství mezi vojáky
   - zachycuje i problémy ztracené generace (když Pavel přijede domů na dovolenou)
-
+* Francouzská literatura
+** Henri Barbusse
+• Oheň – srovnáván s Remarqueovým románem
+  ◦ ne jedna hlavní postava, jako deník bojové skupiny na frontě
+  ◦ zachycovaná z různých úhlů pohledu, stejné vyznění jako Na západní froně klid
+  ◦ týpek popravený protože má strach z bitvy a nechce splnit rozkaz
+  ◦ silně naturalistické pasáže, lyrické pasáže
 ** Henri Barbusse
 - Francouz
 - Oheň
@@ -205,3 +212,180 @@ dílo:
   - podle kapitoly Oheň - poprava za neposlechnutí rozkazu
   - naturalistickysmy i lyrika
   - více hl. postav
+
+** Romain Rolland
+  • Nobelova cena za literaturu
+  • hudba
+  • Jan Kryštof – román řeka,  předobrazem hlavní postavy je Beethoven – konec 19. st.
+  • životovpisy:
+  • Život Beethovenův, Michelangelův, Tolstého, Mahátmy Gándhího
+  • Petr a Lucie – povinná četba
+
+** Michail Šolochov
+  • Tichý Don – 4 díly, první možná původně napsal Fjodor Krjukov
+    ◦ hlavní postava Grigorij Melechov v průběhu občanské války neustále přechází od bílých k rudým a zpátky
+    ◦ první díl ve prospěch bílých a zbytek jiným stylem
+    ◦ rozklad tradičních hodnot ruské vesnice
+  • nobelova cena
+  • Donské povídky (Azurová step)
+  • Osud člověka – děj během WWII, novela
+** Ernest Hemingway
+• Za WWI, ztracená generace
+• metoda ledovce – není vidět do všech postav
+    ◦ něco je jen naznačené
+    ◦ úsporné vyjadřování
+    - nezaujaté vyprávění, málo informací
+    - hl. postavě nevidíme do hlavy
+• romány
+• Fiesta
+    ◦ problémy ztracené generace po válce. Někdy to vypadá, že jsou v pohodě, ale ve skutečnosti mají pod povrchem problémy
+• Sbohem armádo
+    ◦ román
+    ◦ voják na frontě raněn, zamiluje se do ošetřovatelky, chce se usadit, ale po krátké době umírá
+• Komu zvoní hrana
+    ◦ aluze na renesančního/barokního básníka (John Donne)
+            oznámení že někdo umřel
+            “Neptej se komu zvoní hrana, jelikož zvoní tobě, protože jsi součástí lidstva”
+            V kolektivu nutná spolupráce a pocit že táhneme za jeden provaz
+    ◦ Hemingway často tvoří samostatné postavy co většinou řeší jen svoje problémy a jsou trochu opuštěné, tohle je výjimka
+    ◦ Za občanské války ve Španělsku, americký doktor jako dobrovolník na straně proti fašismu, změní se mu myšlení – myslí najednou hlavně na kolektiv
+• povídky
+    ←--
+• Krátké štěstí Francise McCombera
+• Můj táta
+    ◦ (v čítance) char. táty? Jak se tu projevuje metoda ledovce?
+• Vojákův návrat
+• Velice krátká povídka
+    ◦ vypravěč? Luz? téma/interpretace?
+    ◦ Vypravěč je er-forma, ale popisuje převážně z pohledu té hlavní postavy
+    ◦ Luz nevidíme do hlavy, sestřička v nemocnici, dokáže se s emocemi celkem drasticky zhoupnout
+• Kočka v dešti
+• Indiánský tábor
+• Když cosi končí
+    --→ dá se zvolit k maturitě
+• Starce a moře
+    - novela, prostor pobřeží Kuby
+    - postavy: stařec Santiago, chlapec Manolo, mečoun, příroda
+    - Santiago rybář, velmi starý
+    - Manolo pomocníkem jeho
+    - Santiago smůla, 70 dní nic neulovil
+    - Manolovi rodiče zákázali být s Santiegem, prý zbytečný
+    - pak Santiago něco velkýho chytne, 4m mečoun
+    - pak se ještě musí vrátit ve špatných podmínkách
+    - důležitý vztah Santiaga k přírodě
+* Meziválečná svetová próza
+- veľa žánrov
+- zvláštné kompozicie
+- psychologické romány, expresionismus
+- počiatky absurdnej prózy
+- veľa prostriedkov
+- metoda proudu vědomie
+- tolkín + sifi
+- antiutópia, distópia
+** Francis Scott Fitzgerald
+- američan
+- odrážia sa doba, psychické problémy, problémy s alkoholom
+- Něžná je noc
+- Velký Gatsby
+  - Nick hl. postava
+  - Gatsby soused Nicka, throwuje partís
+  - neznámý původ peněz
+  - Gatsby miluje Daisy, která už je vdaná
+  - postupně získává prostředky
+  - tím se stává pro Daisy zajímavý
+- Povídky jazového věku
+** William Faulkner
+- nobelova cena za literaturu
+- ovlinvěn psychologickou tvorbou, modernou, trochu naturalismu
+- tématika amrického jihu
+- složitá kompozice, skádá se obraz společnosti rodin
+- paralely, postavi přecházeli mezi knihama
+- romány
+- Hluk a vřava
+  - metoda proudu vědomí, 4 vypravěčské roviny
+- Svatyně
+  - psychologická
+  - hl. postava zvrhlý muž ztělesňující zlo
+- Absolone! Absolone!
+- Když jsem umírala
+  - umírající žena, vnitřní monology
+- povídka Jdi tam, Mojžíši
+  - černošké tradice (pohřeb tam kde se narodil)
+  - spravedlivý trest pro zločince
+  - hledání vnuka
+  - název symbolický - docela blbost
+    - svádí to na faraona
+    - aluze vyvedení židů - osvobození otroků
+- špatná tvorba - potřeba přemýšlet o irelevantních věcech - escapismus
+** Ruská, Sovětská literatura
+- ruská, protože všichni nebyli moc sověti
+- složitá doba
+- cenzura, bezpečnostní policie
+*** Exilová literatura
+- útěky z režimu
+- Ivan Bunin
+  - pomíjvost, zanikání, smutek
+  - zaměření na psychologii
+  - zranitelní hrdinové
+  * Temné aleje
+  * Přímořské Alpy
+  * Krkavec 182
+*** Vnitřní emigrace
+- na černo
+- samizdat - svépomocí - tajné tiskárny, rukopisy
+- Boris Pasternak (65) 1890 - 1960
+  - za sovětů se živil překládáním (Shakespeara, Verlaina)
+  - poezie 'Život - má sestra'
+  - próza 'Doktor Živago'
+    - důležité nebýt u nějaké strany, ale žít
+    - zajetí u bílích, rudých
+    - ženatý, ale Lara, kazí rodinné vztahy
+    - nakonec mrtvice
+    - složitý román
+    - právě na černo
+    - nobelova cena literatury
+- Michail Bulgakov
+  - něco oficiálně
+  - něco do šuplíku, pak vyšlo později
+  - i dramata, často cenzoři vraceli, tak psal do šuplíku
+  - i životopisná dramata (Moliér, Puškin)
+    - aktualizované téma na dnešek
+  - Dni Turbinových
+  - prvky sci-fi
+  - Psí srdce
+  - Mistr a Markétka
+    - pracoval 12 let, nedokončil
+    - pak vyšel v 60tých letech
+    - posvěceno z vysokých míst
+    - aluze na fausta, bibli
+    - mistr je spisovatel, píše o Ježíší (Jošua) a Pilátovi Nepomuckém
+      - Ježíš je o dost lidštější
+      - výčitky, nejistota
+    - ďábel Woland, s družinou přišel do Moskvi
+      - páchal zlo zlým
+      - buď do pekla, nebo do psychiatrické léčebny
+    - Mistr a Markéta - pár
+      - nemůže vydat knihu kvůli náboženstvosti
+      - pak skusí spálit knihu, skončí v psych. léčebně
+      - ples, kde se stane kněžka Markéta
+      - nakonec umírají, Woland je dovedl do docela ráje jakoby
+      - psycho: postavy jeho knihy chcou, aby to dokončil
+      - pak ježíšovi vysvětlil pár věcí
+      - pak dou do ráje
+      - wtf
+
+*** oficiální literatura
+- nekontroverzní, nekritizovali režim
+- Maxim Gorkij 1868 - 1936
+  - o tom, že lidi si zvykají na špatné situace
+  - v proticarské skupině
+  - pak exil
+  - nepochopená změna
+  - ale pak i po návštěvě gulagu to všecho obhajuje
+  * Bosácké příběhy
+    - o chudých - bosích
+    - tuláci, krádeže a ilegální vydělávání
+    - neodráží úpně literaturu - ve všech hledá dobré
+      - pak často zvrat
+  * román Matka
+  * Pokdik Artamaových

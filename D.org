@@ -69,21 +69,21 @@
 
 ** Versailleská smlouva
 - 28. 6. 1919 - mír s německem
-    - ztráty kolonií
-    - alsasko-lotrinsko vráceno Francii
-    - Eupen, Malmedy vrac. Belgii (malý kus)
-    - část Šlesvicka -> Dánsku
-    - Hlučínsko -> ČSR
-    - Poznaňsko, část Pomořan a Pruska -> Polsku
-    - Gdaňsk – svobodné město
-    - Sársko 15 let správa SN, pak referendum (Fr, Něm)
-    - Rýn
-        - levý břeh Rýna 15 let okupován Dohodou
-        - pravý břeh 50 km demilitarizované pásmo
-    - Německo
-        - zrušení všeobecné branné povinnosti
-        - omezení vojenské techniky (tanky, děla, letadla)
-        - reparace
+  - ztráty kolonií
+  - alsasko-lotrinsko vráceno Francii
+  - Eupen, Malmedy vrac. Belgii (malý kus)
+  - část Šlesvicka -> Dánsku
+  - Hlučínsko -> ČSR
+  - Poznaňsko, část Pomořan a Pruska -> Polsku
+  - Gdaňsk – svobodné město
+  - Sársko 15 let správa SN, pak referendum (Fr, Něm)
+  - Rýn
+    - levý břeh Rýna 15 let okupován Dohodou
+    - pravý břeh 50 km demilitarizované pásmo
+  - Německo
+    - zrušení všeobecné branné povinnosti
+    - omezení vojenské techniky (tanky, děla, letadla)
+    - reparace
 ** Další smlouvy
 - s Rakouskem 19.9. 1919 (důl pro čechy)
 - s Bulharskem 27.11. 1919
@@ -117,8 +117,8 @@
 - proti rudogvardějci - stoupenci bolševiků
   - tvrdá disciplína - neposlechnutí trest smrti
 ** Vojenské intervence
-- hlavncíl obnova V fronty
-- 1. od 1.6.2018
+- hlavní cíl obnova V fronty
+- 1. od 1.6.1918
   - hlavní cíl obnova V fronty
   - Fr, An, Jap + 11 států
   - chtěli pomoc cara - obavy Lenina o převrat
@@ -166,7 +166,7 @@
   - carské dluhy
   - náhrady za vyvlastněné podniky
 ** Německo
-- 29.10. 1918 povstání v Kielu, pak celé Německo
+- 29.10. 1918 povstání v Kielu,pak celé Německo
 - 4.11. abdikoval Vilém II.
 - vyhlášena republika
   - nejistota nad vládou
@@ -447,10 +447,12 @@ zákon na ochranu republiky (březen 1923)
 - 1923 Panamerická smlouva
 - banánové republiky
 - nestabilita, střídání vlád, sklon k totalitním režimům
-*
+
+
+* Krize
 ** Příčiny krize
 - nadvýroba
-- 1926 a 1929 konjunktůra
+- 1926 až 1929 konjunktůra
   - velká zaměstnanost, ale lidi neměli peníze na spotřebu
   - hodně neprodejného
 - zemědělství
@@ -459,3 +461,390 @@ zákon na ochranu republiky (březen 1923)
 - 24.9.1929 krach na newyorkské burze
 - černý čtvrtek
 - celosvětová, zasáhla skoro všechny státy (krom SSSR - neměl nadvýrobu, mongolsko)
+- měnová krize, ztráta hodnoty
+- bloky států, obchodující ve stejné, silnější měně
+- clearingový blok, dovoz a vývoz statků s přibližně stejnou hodnotou bez použití peněz
+- velká nezaměstnanost, sociální problémy
+  - zabavování
+  - střední vrstva - proletarizace
+** Projevy krize
+- celosvětový pokles průmyslové výroby
+  - 1932 - o 37%
+- USA na 53%, Německo na 53%
+- Polsko, ČSR až na 60%
+- taky Francie, VB asi 80%
+- Japonsko 97.8%
+** Nezaměstnanost
+- 30 mil. lidí
+- vyhozeni dělníci, živnostníci, státní zaměstnanci, inteligence, zemědělci
+- růst sociálních nepokojů
+  - stávky, hladové pochody
+- morální krize (z hladu, chudoby) -> zločinost
+- využívají demagogové (na někoho svést krizi)
+  - fašismus, komunismus (SSSR byla v poho, cenzura)
+** Teorie na řešení krize
+- John Maynard Keynes
+  - Obecná teorie zaměstnanosti, úroku a peněz
+  - více zásahů státu do ekonomiky
+  - kritika liberalismu
+- Friedrich August von Hayek
+  - liberalismus
+** Program na překonání krize
+- Franklin Delano Roosevelt
+  - program New Deal (více zásahů do ekonomiky)
+  - 1932 vyhrál volby
+- program širokých zásahů do ekonomiky:
+  - bankovnictví
+    - proti krachům
+  - devalvace dolaru (1934)
+  - regulace zemědělství
+  - veřejné práce
+    - umělá pracovní místa, opravy silnic atd.
+  - -> snížení nezaměstnanosti z 18 mil na 8 mil
+- 1935 druhý New Deal
+  - zlepšení situace
+  - do roku 1937 hospodářský stav z roku 1929
+  - -> státní zásahy působí proti destabilizaci v době krize
+  - vzor i po 2. sv. válce
+** Francie
+- podobně jak New Deal, ale nepovedlo se
+- konec krize r. 1933
+- politická krize
+- ohrožení fašismem
+- Lidová fronta - z národní a socialistické strany koalice
+- jaro 1936 volby – vítězí LF
+- Léon Blum
+  - reformy
+    - moc rozsáhlé
+    - negativní jevy
+    - důchody, 40h max pracovní doba
+    - státní železnice, letectví
+- odpůrcem pravicové strany, velkopodnikatelé
+  - neplatili daně
+  - peníze směnili za zlato
+  - zastavování výroby
+-> eskalace situace
+- 1938 demise Leona Bluma
+- radikální strana Édouarda Daladiera (do 1940)
+- appeasement - ustupování
+- rozvrat
+** Švédsko
+- švédská cesta z krize
+- 1932 vláda sociální demokracie
+- později koalice
+  - výhodné úvěry
+  - veřejné práce
+  - podpora
+  - politika sociálního partnerství
+    - když se bohatí podělí, je to prospěšné pro všechny
+  - sociální reformy
+- 1936 program státního blahobytu
+- politicky neutrální
+- málo radikální pravice
+** ČSR za krize
+- největší pokles r. 1933 na 60,2%
+- prudký pokles r. 1931
+  - hutní průmysl na 30%
+- zemědělství:
+- pokles cen -> nižší čistý výnos
+  - 1929: 1081,- Kč za hektar
+  - 1932: jen 185,- Kč
+  - neměli na platbu daní
+- omezení kupní síly o 60%
+- zahraniční obchod ztroskotává
+- 1929 dovoz za 20  mld vývoz za 20.5 mld Kč - dobrý
+- 1933          5.8 mld           5.9 mld Kč
+- nezaměstnanost:  březen 1933 -  978 000
+- polozaměstnanost (střídání prac. na jednom místě)
+- pokles mezd asi o 17%
+- podpory v nezaměstnanosti (ženatý 20,- Kč; svobodný 10,- Kč/týden)
+- likvidace živnostníků (zkrachováváli, nikdo neměl na řemesla)
+- předčasné penzionování
+- radikalizace obyvatel - stávky
+- 1932 stávka Most (březen – duben)
+** Další důsledky krize
+- nacionalismus
+  - DNSAP - němci v čsr
+    - na okrajích větši nezam., menší důležitost práce
+  - Slovenský
+    - nezaměstnanost 250 000 obyv.
+    - ve slovensku průmysl dřevozpracující
+      - v hospodářské krizi zbytný
+    - Hlinkova slov. ľudová strana
+      - sjezd v Ružomberku (1930)
+      - 1932 dohoda se slov. nár. stranou
+      - 1933 oslavy v Nitře – protičeská manifestace
+  - český nacionalismus
+    - nár. dem. strana (K. Kramář)
+    - Národní liga (Jiří Stříbrný) - protiněmecké demonstrace
+    - Národní Obec Fašistická (Rudolf Gajda)
+    - poč. roku 1931 zatčeni Gajda, Pergler, Stříbrný
+    - leden 1933 útok na židenická kasárna
+** Vládní politika
+- říjen 1932 demise Františka Udržala
+- Jan Malypetr
+- 240 vládních nařízení:
+  - regulace výroby (proti nadbytku)
+  - devalvace Kč
+  - regulace dovozu a vývozu, vyrovnání
+  - úprava úvěrů - výhodnější
+  - zvýšení podpory v nezam.
+  - zastavena exekuce zadlužených podniků
+** Zákony na obranu demokracie
+- 1933 tiskový zákon - cenzura
+- zákon o stíhání protistátní činnosti státních zaměstnanců
+  - pro stát největší nebezpečí extrémních organizací
+- zákon o zastavování činnosti a rozpouštění politických stran
+- -> stíhání nacistických projevů
+- DNSAP rozpuštěna a zakázána (čekalo se, přechod do jiné nové)
+- zatykač na Gottwalda aj. (1934)
+* 6. 4.
+** Domácí práce
+- str 57-59 - Dolfusův režim až Stalinova diktatura
+** Dopad hospodářské krize
+- pokles prům. výroby na 53,3% (1932)
+- zahraniční obchod o 2/3
+- růst nezaměstnanosti:
+- 1929 1,6 mil.
+- poč. 1933 6 mil.
+- snižování mezd
+- proletarizace středních vrstev
+** Politické důsledky
+- 14.9. 1930 volby do Říšského sněmu
+- NSDAP 107 mandátů (před tím 12)
+- Hitler se nebral jako nebezpečný
+- stupňování sociální demagogie NSDAP
+  - obviňování levice, židů
+- 11.10. 1931 Harzburg
+- NSDAP + Stahlhelm (vysloužilí vojáci, frustrovaní prohrou)
+- oporou Hitlera Kirdorf, Thyssen
+  - pro válku byli
+** 1932
+- červen – novým kancléřem Franz von Papen (ze strany Centrum) - chyba
+- 31.7. 1932 volby do ŘS
+- NSDAP 37,8%
+- SPD 22%
+- Centrum 16%
+- KPD 15%
+- ostatní 9%
+- Hermann Göring z NSDAP předsedou Říšského sněmu
+** Pokračování politické krize
+- (Hindenburg stále )
+- NSDAP v ŘS – nedůvěra vládě Papena
+- 12.9. 1932 ŘS rozpuštěn
+- narůstal pouliční teror SA
+- první známky oživení výroby
+- 6.11. 1932 volby do ŘS
+- NSDAP ztratila asi 4 mil. hlasů
+- novým kancléřem Kurt von Schleicher
+- obviněn ze spolupráce s rudými
+** Cíl gen. K. von Schleichera
+- (pamatovat tento podraz)
+- rozšířit pracovní místa
+- zapojit odbory
+- zapojit SPD
+- plebejské křídlo NSDAP
+- rozštěpit NSDAP
+- konec 1932 – komunální volby
+- další pokles NSDAP
+** Hitlerův převrat
+- obavy z „rudého generála“
+- 28.1. 1933 Schleicher přinucen k demisi (Hitlerem)
+- 30.1. 1933 Hitler říšským kancléřem
+- 1.2. rozpuštěn ŘS (domluva s Göringem)
+- Německo = fašistickou diktaturou
+- postupná likvidace demokracie
+** Zastrašování před volbami
+- diskreditace politických nepřátel
+- 26./27.2.1933 požár Říšského sněmu (obviněni Bulharští komunisté + dementní nizozemský dělník)
+- obviňování stran navzájem
+- lipský proces (září – prosinec 1933)
+  - komunisti se obhájili (jeden z nich právník)
+  - nizozemec popraven (nevěděl, co se děje), svedlo se to na něj
+** Volby do ŘS 5. 3. 1933
+- NSDAP 43,9% = 288 mandátů
+  - museli se spojit s dalši stranou
+- německá nacionální strana 8%
+- SPD 120 mandátů
+- KPD 81 mandátů
+- Centrum 74 mandátů
+** Kroky k diktatuře
+- zákaz KPD (14.3.)
+- zmocňovací zákon (23.3. 1933)
+  - 4 roky zákony, ústava měnitelná bez ŘS jen vládou
+  - prošlo, ti proti zatčeni, zakázáni, nebo pro (centrum)
+- zákaz SPD (10.5.)
+- od 14. 7. 1933 NSDAP = jedinou politickou stranou
+- koncentrační tábory pro politické vězně
+- tažení proti židům
+  - 1.4 1933 bojkot židovských obchodů
+- 3.5.1933 Geheime Statspolizei – gestapo
+- 12.11. 1933 volby do ŘS s jedinou kandidátkou
+- NSDAP 92% hlasů
+** Spor o tzv. druhou revoluci
+- vedení SA
+- 30.6. 1934 Noc dlouhých nožů (Röhmův puč)
+  - SA vyvražděni
+  - Bad Wiessee
+  - zavražděno asi 100 předáků SA
+  - G. Strasser, E. Röhm
+  - K. von Schleicher
+  - celkem asi 1000 osob
+- SS = mocenská síla „Třetí říše“
+** Charakteristika Německa
+- klasický totalitní stát
+- lidé spíš s režimem souhlasili
+- policejní režim
+- státní centralismus (zrušeny zemské parlamenty)
+- většina obyvatel souhlasí s režimem
+- snížení nezaměstnanosti (1937 ½ mil.)
+- zahraničně politické úspěchy
+- smrt Hindenburga
+- od srpna 1934 Hitler „vůdce a říšský kancléř“
+** Ideologická převýchova (přečíst)
+- zneužita filosofie F. Nietzscheho
+- nenávist k demokracii
+- kult vůdce, síly, války
+- nacionalismus, rasismus – nordická rasa, Übermench
+- Lebensraum
+- pohrdání „méněcennými“ národy a rasami: Židy, Romy, Slovany, barevnými, i Francouzi
+** Pronásledování židů
+- 15.9. 1935 zákon o ochraně německé krve a cti
+  - zákaz svateb židů a němců
+- součástí Norimberských zákonů
+- Židé zbaveni občanských práv
+- diskriminace v dopravě (i kola), školství, povolání, veřejných prostorách (viz učebnice str. 56)
+- 9./10.11. 1938 „Křišťálová noc“
+  - pogrom organizovaný státem
+  - synagogy, židovské obchody vyrabovány, vypáleny
+  - 3000 do koncentračního táboru
+** Rakousko
+- str 57, prezentace 10
+- klerofašismus - podpora křesťanství
+** Španělsko
+- str 57, prezentace 10
+** SSSR
+- str 57-59, prezentace 11
+** Válečná ohniska
+- 1931 Japonsko obsadili Mandžursko, obsadilo Mukden
+- 1933 z toho stát Mandžukuo
+- císař Pchu-ji
+** Japonsko
+- agrasivní politika, generálové vládli
+- válka s čínou až do 1945
+- v číně pozastavení občanské války
+- dál do Mongolska, SSSR, neúspěšné
+- (Mongolsko satelit Ruska, pak SSSR)
+- SN Mandžukuo neuznalo, Japonsko vystoupilo
+** ????
+** Evropa
+- Německo po r. 1933: snaha o revizi mírových smluv
+- Sársko – plebiscit (91%)  předáno Německu
+- 1935 všeobecná branná povinnost (porušení versailleské smlouvy a jiných)
+  - nikdo z versailleské smlouvy neprotestoval
+- 1936 obsazeno demilitarizované Porýní
+  - jen velvyslanec Francie protestoval
+- 1936 podpora španělských fašistů
+- sblížení s Itálií
+** Vznik fašistického bloku
+- 25.10. 1936 německo-italský protokol o koordinaci politických akcí – Osa Berlín - Řím
+  - vojenské jednotky do Španělska
+- 25.11. 1936 Japonsko + Německo – Pakt proti Kominterně
+- 6.11. 1937 + Itálie
+- 27.9. 1940 – Pakt tří =  Osa Berlín – Řím – Tokio
+  - vzájemná pomoc
+** Plány Německa
+- propaganda obviňuje sousední státy
+  - z potlačování Němců
+- plán na přepadení
+  - Rakouska – Fall Otto (ten anšlus)
+  - ČSR – Fall Grün
+  - Polska – Fall Weiss
+  - SSSR – Fall Barbarossa
+  - atd.
+** Agrese Itálie
+- 5.10. 1935 útok na Habeš
+- z Eritreie a Somálska
+  - ubráněno
+- 7.10. 1935 – SN
+  - plán sankcí
+  - prosinec 1935 10 států pro rozšíření sankcí
+- květen 1936 obsazena Adis Abeba
+** Politická situace
+- SN ochromena politikou appeasementu
+  - neměli armádu... jen sankce
+- Německo – snaha oslabit Francii
+- táhnutí na Balkán
+- hospodářství Jugoslávie a Rumunska
+- 1934 Balkánský pakt (Turecko, Řecko, Rumunsko, Jugoslávie + Bulharsko, Albánie)
+** Politka kolektivní bezpečnosti?
+- Východní pakt
+  - návrh mez. smlouvy o vzájemné pomoci
+  - SSSR, ČSR, Polskem, Finskem, Litvou, Estonskem a Lotyšskem
+  - Iniciátorem  fr. ministr zahr. věcí L. Barthou
+  - proti VB, USA
+- 1934 Francie + SSSR (Louis Barthou + Maxim Maximovič Litvinov)
+  - proti Německo; USA, VB, Polsko
+- 19.9. 1934 atentát v Marseille
+  - chorvatští nacionalisté
+  - Barthou a jug. král Alexandar
+- Východní pakt ztroskotal
+- z VP pouze smlouvy:
+  - Francie + SSSR (2.5. 1935)
+  - ČSR + SSSR (16.5. 1935)
+- ale
+  - červen 1935 námořní smlouva VB + N
+  - 1935 konference v Ženevě (odzbrojení) – bezvýznamná
+  - Světové sdružení pro mír - slabé
+** kritický rok 1937
+- volby
+- Arthur Nevill Chamberlain předsedou vlády VB (konzervativec)
+  - apeasment měl rád
+- 19.11. 1937 rozhovory Edwarda Halifaxe s Hitlerem
+- díky tomu odvaha na 11. – 13. 3. 1938 anšlus Rakouska
+* Československo
+- 1935 - 1939
+- český fašismus = okrajový:
+  - Národně demokratická strana
+  - Národní liga
+  - Národní fronta
+- Národní sjednocení (25.4. 1935)
+  - z nich později
+  - K. Kramář předseda z počátku
+** Nacionalismus v německém prostředí
+- 4.10. 1933 zakázána DNSAP a DNP
+- 2.10. 1933 založena Sudetendeutsche Heimatsfront (SHF)
+- Konrád Henlein založil
+- kontakt s NSDAP
+** Agrární strana (republikánská)
+- proti smlouvám z 1935
+- pravicový proud: R. Beran, Josef Zadina
+  - kontakty s Henleinem
+** Meinárodní situace
+- spojenectví s Francií
+- E. Beneš
+  - koncepce kolektivní bezpečnosti
+  - přehodnocení vztahu k SSSR – uznán de iure (1934)
+- 1934 – německo-polská smlouva o neútočení
+- smlouva s SSSR – Francie (2.5. 1935)
+- ČSR – SSSR (16.5. 1935)
+** Situace před volbami 1935
+- sílí agresivita SHF
+  - kritizují vládu
+- agrárníci chtějí jednat s Henleinem
+- demokratické strany - žádost zákazu SHF
+- změna názvu SdP (30. 4. 1935)
+  - hodně práce pro soud
+** Volby do NS 19. 5. 1935
+- SdP 15 %, agrár. 14 %, socdem 12 %, KSČ 10 %, nárdem 9 %, lidovci 7 %
+- nejvíce mandátů agrár (o jeden nad SdP)
+** Vláda agrárníků
+- Jan Malypetr předseda
+- odvolán R. Beranem
+- dr. Milan Hodža (od 5. 11. 1935)
+** Prezidentské volby
+- 14. 12. T.G. Masaryk abdikoval (cítil se nemocný)
+- kandidáti:
+  - dr. Edvard Beneš
+  - dr. Bohumil Němec (agrárníci, pak stáhl kandidaturu pro nepopularitu)
+- 18.12. 1935 zvolen E. Beneš

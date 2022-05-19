@@ -1,0 +1,888 @@
+a.cpp: In function ‘std::ostream operator<<(const ostream&, TPole)’:
+a.cpp:70:15: error: no match for ‘operator<<’ (operand types are ‘const ostream’ {aka ‘const std::basic_ostream<char>’} and ‘const char [3]’)
+   70 |             o << ", " << a.pole[i];
+      |             ~ ^~ ~~~~
+      |             |    |
+      |             |    const char [3]
+      |             const ostream {aka const std::basic_ostream<char>}
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:166:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’ (near match)
+  166 |       operator<<(long __n)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:166:7: note:   conversion of argument 1 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘long int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:170:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’ (near match)
+  170 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:170:7: note:   conversion of argument 1 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘long unsigned int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:174:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’ (near match)
+  174 |       operator<<(bool __n)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:174:7: note:   passing ‘const ostream*’ {aka ‘const std::basic_ostream<char>*’} as ‘this’ argument discards qualifiers
+In file included from /usr/include/c++/11.2.0/ostream:826,
+                 from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/ostream.tcc:91:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]’ (near match)
+   91 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/bits/ostream.tcc:91:5: note:   conversion of argument 1 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘short int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:181:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’ (near match)
+  181 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:181:7: note:   conversion of argument 1 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘short unsigned int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+In file included from /usr/include/c++/11.2.0/ostream:826,
+                 from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/ostream.tcc:105:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]’ (near match)
+  105 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/bits/ostream.tcc:105:5: note:   conversion of argument 1 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:192:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’ (near match)
+  192 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:192:7: note:   conversion of argument 1 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘unsigned int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:201:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’ (near match)
+  201 |       operator<<(long long __n)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:201:7: note:   conversion of argument 1 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘long long int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:205:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’ (near match)
+  205 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:205:7: note:   conversion of argument 1 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘long long unsigned int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:245:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’ (near match)
+  245 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:245:7: note:   passing ‘const ostream*’ {aka ‘const std::basic_ostream<char>*’} as ‘this’ argument discards qualifiers
+/usr/include/c++/11.2.0/ostream:108:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:108:36: note:   no known conversion for argument 1 from ‘const char [3]’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)’ {aka ‘std::basic_ostream<char>& (*)(std::basic_ostream<char>&)’}
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/ostream:117:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]’
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:117:32: note:   no known conversion for argument 1 from ‘const char [3]’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)’ {aka ‘std::basic_ios<char>& (*)(std::basic_ios<char>&)’}
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/ostream:127:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:127:30: note:   no known conversion for argument 1 from ‘const char [3]’ to ‘std::ios_base& (*)(std::ios_base&)’
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/ostream:220:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  220 |       operator<<(double __f)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:220:25: note:   no known conversion for argument 1 from ‘const char [3]’ to ‘double’
+  220 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+/usr/include/c++/11.2.0/ostream:224:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  224 |       operator<<(float __f)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:224:24: note:   no known conversion for argument 1 from ‘const char [3]’ to ‘float’
+  224 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+/usr/include/c++/11.2.0/ostream:232:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  232 |       operator<<(long double __f)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:232:30: note:   no known conversion for argument 1 from ‘const char [3]’ to ‘long double’
+  232 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+/usr/include/c++/11.2.0/ostream:250:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]’
+  250 |       operator<<(nullptr_t)
+      |       ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:250:18: note:   no known conversion for argument 1 from ‘const char [3]’ to ‘std::nullptr_t’
+  250 |       operator<<(nullptr_t)
+      |                  ^~~~~~~~~
+In file included from /usr/include/c++/11.2.0/ostream:826,
+                 from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/ostream.tcc:119:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]’
+  119 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/bits/ostream.tcc:120:34: note:   no known conversion for argument 1 from ‘const char [3]’ to ‘std::basic_ostream<char>::__streambuf_type*’ {aka ‘std::basic_streambuf<char>*’}
+  120 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/c++/11.2.0/regex:63,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:110,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/regex.h:1649:5: note: candidate: ‘template<class _Ch_type, class _Ch_traits, class _Bi_iter> std::basic_ostream<_CharT, _Traits>& std::__cxx11::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::sub_match<_Bi_iter>&)’
+ 1649 |     operator<<(basic_ostream<_Ch_type, _Ch_traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/regex.h:1649:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:45,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/cstddef:125:5: note: candidate: ‘template<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)’
+  125 |     operator<<(byte __b, _IntegerType __shift) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/cstddef:125:5: note:   template argument deduction/substitution failed:
+a.cpp:70:13: note:   cannot convert ‘o’ (type ‘const ostream’ {aka ‘const std::basic_ostream<char>’}) to type ‘std::byte’
+   70 |             o << ", " << a.pole[i];
+      |             ^
+In file included from /usr/include/c++/11.2.0/bits/basic_string.h:48,
+                 from /usr/include/c++/11.2.0/string:55,
+                 from /usr/include/c++/11.2.0/bits/locale_classes.h:40,
+                 from /usr/include/c++/11.2.0/bits/ios_base.h:41,
+                 from /usr/include/c++/11.2.0/ios:42,
+                 from /usr/include/c++/11.2.0/istream:38,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/string_view:666:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)’
+  666 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/string_view:666:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/string:55,
+                 from /usr/include/c++/11.2.0/bits/locale_classes.h:40,
+                 from /usr/include/c++/11.2.0/bits/ios_base.h:41,
+                 from /usr/include/c++/11.2.0/ios:42,
+                 from /usr/include/c++/11.2.0/istream:38,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/basic_string.h:6530:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 6530 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/basic_string.h:6530:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/bits/ios_base.h:46,
+                 from /usr/include/c++/11.2.0/ios:42,
+                 from /usr/include/c++/11.2.0/istream:38,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/system_error:263:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+  263 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/system_error:263:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:506:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:506:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:511:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:511:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:517:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+  517 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:517:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<char, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:523:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+  523 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:523:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<char, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:528:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+  528 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:528:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<char, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:589:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:589:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/ostream:826,
+                 from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:606:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+  606 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:606:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<char, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:619:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+  619 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:619:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<char, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:624:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+  624 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:624:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<char, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:747:5: note: candidate: ‘template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)’
+  747 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/ostream:747:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/11.2.0/ostream: In substitution of ‘template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = const std::basic_ostream<char>&; _Tp = char [3]]’:
+a.cpp:70:18:   required from here
+/usr/include/c++/11.2.0/ostream:747:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+In file included from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/complex:555:5: note: candidate: ‘template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)’
+  555 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/complex:555:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:66,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bitset:1540:5: note: candidate: ‘template<class _CharT, class _Traits, long unsigned int _Nb> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bitset<_Nb>&)’
+ 1540 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bitset:1540:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:72,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/iomanip:79:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)’
+   79 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/iomanip:79:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:72,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/iomanip:109:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)’
+  109 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/iomanip:109:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:72,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/iomanip:143:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)’
+  143 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/iomanip:143:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:72,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/iomanip:178:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)’
+  178 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/iomanip:178:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:72,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/iomanip:208:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)’
+  208 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/iomanip:208:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:72,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/iomanip:238:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)’
+  238 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/iomanip:238:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:72,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/iomanip:311:5: note: candidate: ‘template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)’
+  311 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/iomanip:311:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:72,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/iomanip:363:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)’
+  363 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/iomanip:363:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/memory:77,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:82,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/shared_ptr.h:70:5: note: candidate: ‘template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)’
+   70 |     operator<<(std::basic_ostream<_Ch, _Tr>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/shared_ptr.h:70:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/valarray:603,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:95,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)’
+  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   ‘const ostream’ {aka ‘const std::basic_ostream<char>’} is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/valarray:603,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:95,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)’
+  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   ‘const ostream’ {aka ‘const std::basic_ostream<char>’} is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/valarray:603,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:95,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)’
+  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘const char [3]’
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/valarray:603,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:95,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)’
+  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   ‘const ostream’ {aka ‘const std::basic_ostream<char>’} is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/valarray:603,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:95,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note: candidate: ‘template<class _Dom> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__shift_left, typename _Dom1::value_type>::result_type> std::operator<<(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)’
+  413 |     _DEFINE_EXPR_BINARY_OPERATOR(<<, struct std::__shift_left)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/bits/valarray_after.h:413:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘const char [3]’
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:95,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/valarray:1193:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const std::valarray<_Tp>&, const std::valarray<_Tp>&)’
+ 1193 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/valarray:1193:1: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   ‘const ostream’ {aka ‘const std::basic_ostream<char>’} is not derived from ‘const std::valarray<_Tp>’
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:95,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/valarray:1193:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)’
+ 1193 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/valarray:1193:1: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   ‘const ostream’ {aka ‘const std::basic_ostream<char>’} is not derived from ‘const std::valarray<_Tp>’
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:95,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/valarray:1193:1: note: candidate: ‘template<class _Tp> std::_Expr<std::__detail::_BinClos<std::__shift_left, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__shift_left, _Tp>::result_type> std::operator<<(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)’
+ 1193 | _DEFINE_BINARY_OPERATOR(<<, __shift_left)
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/11.2.0/valarray:1193:1: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   mismatched types ‘const std::valarray<_Tp>’ and ‘const char [3]’
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:49,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.h:1309:5: note: candidate: ‘template<class _RandomNumberEngine, long unsigned int __w, class _UIntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)’
+ 1309 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.h:1309:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:901:5: note: candidate: ‘template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_int_distribution<_IntType>&)’
+  901 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:901:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:959:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_real_distribution<_IntType>&)’
+  959 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:959:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2144:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::cauchy_distribution<_RealType>&)’
+ 2144 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2144:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:1020:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bernoulli_distribution&)’
+ 1020 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:1020:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:1101:5: note: candidate: ‘template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::geometric_distribution<_IntType>&)’
+ 1101 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:1101:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:1753:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::exponential_distribution<_RealType>&)’
+ 1753 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:1753:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2538:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::weibull_distribution<_RealType>&)’
+ 2538 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2538:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2612:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::extreme_value_distribution<_RealType>&)’
+ 2612 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2612:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:154:5: note: candidate: ‘template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)’
+  154 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:154:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:474:5: note: candidate: ‘template<class _UIntType1, long unsigned int __w1, long unsigned int __n1, long unsigned int __m1, long unsigned int __r1, _UIntType1 __a1, long unsigned int __u1, _UIntType1 __d1, long unsigned int __s1, _UIntType1 __b1, long unsigned int __t1, _UIntType1 __c1, long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)’
+  474 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:474:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:628:5: note: candidate: ‘template<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)’
+  628 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:628:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:696:5: note: candidate: ‘template<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)’
+  696 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:696:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:857:5: note: candidate: ‘template<class _RandomNumberEngine, long unsigned int __k, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)’
+  857 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:857:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:1215:5: note: candidate: ‘template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::negative_binomial_distribution<_IntType>&)’
+ 1215 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:1215:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:1425:5: note: candidate: ‘template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::poisson_distribution<_IntType>&)’
+ 1425 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:1425:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:1691:5: note: candidate: ‘template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::binomial_distribution<_IntType>&)’
+ 1691 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:1691:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:1919:5: note: candidate: ‘template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::normal_distribution<_RealType>&)’
+ 1919 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:1919:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:1986:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::lognormal_distribution<_RealType>&)’
+ 1986 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:1986:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2058:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::chi_squared_distribution<_RealType>&)’
+ 2058 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2058:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2219:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::fisher_f_distribution<_RealType>&)’
+ 2219 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2219:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2293:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::student_t_distribution<_RealType>&)’
+ 2293 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2293:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2462:5: note: candidate: ‘template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::gamma_distribution<_RealType>&)’
+ 2462 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2462:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2748:5: note: candidate: ‘template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discrete_distribution<_IntType>&)’
+ 2748 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2748:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:2970:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_constant_distribution<_RealType>&)’
+ 2970 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:2970:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/random:51,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:108,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/bits/random.tcc:3176:5: note: candidate: ‘template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_linear_distribution<_RealType>&)’
+ 3176 |     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/bits/random.tcc:3176:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+In file included from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:113,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/thread:92:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)’
+   92 |     operator<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+      |     ^~~~~~~~
+/usr/include/c++/11.2.0/thread:92:5: note:   template argument deduction/substitution failed:
+a.cpp:70:18: note:   types ‘std::basic_ostream<_CharT, _Traits>’ and ‘const ostream’ {aka ‘const std::basic_ostream<char>’} have incompatible cv-qualifiers
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+a.cpp:64:9: note: candidate: ‘std::ostream operator<<(const ostream&, TPole)’ (near match)
+   64 | ostream operator<<(const ostream& o, TPole a) {
+      |         ^~~~~~~~
+a.cpp:64:9: note:   conversion of argument 2 would be ill-formed:
+a.cpp:70:18: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+   70 |             o << ", " << a.pole[i];
+      |                  ^~~~
+      |                  |
+      |                  const char*
+a.cpp:44:18: note:   initializing argument 1 of ‘TPole::TPole(int)’
+   44 | TPole::TPole(int n): kapacita{n}, pocet{0}, pole{new int[n]} {}
+      |              ~~~~^
+a.cpp:74:12: error: use of deleted function ‘std::basic_ostream<_CharT, _Traits>::basic_ostream(const std::basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = std::char_traits<char>]’
+   74 |     return o;
+      |            ^
+In file included from /usr/include/c++/11.2.0/istream:39,
+                 from /usr/include/c++/11.2.0/sstream:38,
+                 from /usr/include/c++/11.2.0/complex:45,
+                 from /usr/include/c++/11.2.0/ccomplex:39,
+                 from /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/stdc++.h:54,
+                 from a.cpp:1:
+/usr/include/c++/11.2.0/ostream:397:7: note: declared here
+  397 |       basic_ostream(const basic_ostream&) = delete;
+      |       ^~~~~~~~~~~~~
